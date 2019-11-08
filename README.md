@@ -1,3 +1,29 @@
+Self-Study Questions
+
+1 What is the difference between an adaptive website and a fully responsive website?
+ 
+Responsive reacts to all different screen sizes with 1 set of rules, while adaptive requires rules for each screen size.
+ 
+2 Describe what it means to be mobile first vs desktop first.
+	
+Mobile first is to design apps for consumption on mobile then if needed to adapt to desktop (min-width as media query). Desktop first is opposite; designed for desktop then adapted to mobile (max-width as media query).
+ 
+3 What does font-size: 62.5% in the html tag do for us when using rem units?
+ 
+Used to set all fonts to multiples of 10px (eg 1rem = 10px when fs: 62.5%)
+ 
+4 How would you describe preprocessing to someone new to CSS?
+ 
+Preprocessing allows you to use CSS with additional functionality in relatively similar syntax. Some features include nesting, mixins, variables, etc.
+ 
+5 What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+My favorite concept in preprocessing is parametric mixins, because it allows for lots of functionality and saves time. I like nesting as well, but sometimes I make an error that causes me to debug my code.
+
+
+
+
+
+
 # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.
