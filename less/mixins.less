@@ -1,1 +1,25 @@
 // Mixins Here
+// Flex mixin
+
+.flexbotted(@fdirec, @just-cont, @align){
+    display: flex;
+    flex-direction: @fdirec;
+    justify-content: @just-cont;
+    align-items: @align;
+}
+
+// Button mixins
+
+.button-styl(@bkgrnd, @ftclr){
+    background: @bkgrnd;
+    color: @ftclr;
+    border: none;
+    text-align: center;
+    padding: 1.5% 0;
+    width: 30%;
+    font-size: 1.8rem;
+    text-decoration: none;
+    border-radius:.5em;
+}
+ 
+

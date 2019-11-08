@@ -1,32 +1,43 @@
 // Navigation code here
 .navigation {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    .flexbotted(column, center, center);
     background: whitesmoke;
-    
+    margin-top: 0.5%;
+    &:hover {
+        background: darken(whitesmoke,10%);
+    }   
+
     h1 {
         max-width: 800px;
         width: 100%;
         margin: 1% auto;
         text-align: center;
         font-size: 3rem;
+        &:hover {
+            color: fade(black,40%)
+        }
+        @media @mobile {
+            margin: 2% auto;
+        }   
     }
     nav {
         max-width: 800px;
         width: 30%;
         margin: 0 auto 0.5%;        
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+           .flexbotted(row, space-evenly, center);
+        @media @mobile {
+            width: 80%;
+            margin: 0.5% auto 1.5%;   
+        }   
        
         a {
             font-size: 1.6rem;
             text-decoration: none;
             color: black;
+            &:hover {
+                color: tint(dodgerblue,10%);
+            }
+            
         }
     }
 }
-
-
