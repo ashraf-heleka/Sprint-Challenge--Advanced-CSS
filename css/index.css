@@ -415,14 +415,3 @@ footer:hover {
     margin: 1% 0;
   }
 }
-h2 {
-  animation: pulse 5s infinite;
-}
-@keyframes pulse {
-  0% {
-    background-color: dodgerblue;
-  }
-  100% {
-    background-color: navy;
-  }
-}
